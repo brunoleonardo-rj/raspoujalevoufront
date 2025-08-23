@@ -113,7 +113,7 @@ export default function Home() {
   const fixImageUrl = (url: string) => {
     if (!url) return '';
     return url
-      .replace('raspoujalevou.com', 'api.raspoujalevou.com')
+      //.replace('raspoujalevou.com', 'api.raspoujalevou.com')
       .replace('/uploads/scratchcards/', '/uploads/')
       .replace('/uploads/prizes/', '/uploads/');
   };
