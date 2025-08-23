@@ -109,7 +109,7 @@ const fixImageUrl = (url: string | null) => {
   if (!url) return null;
   
 
-  let fixedUrl = url.replace('https://raspa.ae/', 'https://api.raspapixoficial.com/');
+  let fixedUrl = url.replace('https://raspoujalevou.com/', 'https://api.raspoujalevou.com/');
   
   // Remover 'prizes/' e 'scratchcards/' após 'uploads/'
   fixedUrl = fixedUrl.replace('/uploads/prizes/', '/uploads/');

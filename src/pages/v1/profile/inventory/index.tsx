@@ -70,7 +70,7 @@ const InventoryPage: React.FC = () => {
   const fixImageUrl = (url: string | null): string | null => {
     if (!url) return null;
     
-    let fixedUrl = url.replace('https://raspa.ae/', apiUrl('/'));
+    let fixedUrl = url.replace('https://raspoujalevou.com/', apiUrl('/'));
     
     fixedUrl = fixedUrl.replace('/uploads/prizes/', '/uploads/');
     fixedUrl = fixedUrl.replace('/uploads/scratchcards/', '/uploads/');

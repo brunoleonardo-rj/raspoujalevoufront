@@ -169,7 +169,7 @@ const ScratchCardPage = () => {
   const fixImageUrl = (url: string) => {
     if (!url) return '';
     return url
-      .replace('raspa.ae', 'api.raspapixoficial.com')
+      .replace('raspoujalevou.com', 'api.raspoujalevou.com')
       .replace('/uploads/scratchcards/', '/uploads/')
       .replace('/uploads/prizes/', '/uploads/');
   };
